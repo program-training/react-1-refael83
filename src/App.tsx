@@ -1,10 +1,12 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { Text } from "./Text/Text";
+import { Card } from "./Card/Card";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+      <Text />{" "}
+      <Card title="hello" text="מה נשמע"/>
     </>
   );
 }
